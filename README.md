@@ -1,6 +1,6 @@
 # 🧠 Breast Cancer Classification Using Feature Selection
 
-This project focuses on building machine learning models to classify breast cancer tumors (benign vs. malignant) using the Wisconsin Breast Cancer Dataset. It investigates three different feature selection strategies and compares classifier performances, **without applying PCA**.
+This project focuses on building machine learning models to classify breast cancer tumors (benign vs. malignant) using the Wisconsin Breast Cancer Dataset. It investigates three different feature selection strategies and compares classifier performances.
 
 ---
 
@@ -61,4 +61,30 @@ This project focuses on building machine learning models to classify breast canc
 ---
 
 ## 📁 Files Structure
+```
+📁 notebooks/
+    ├── anova_feature_selection.ipynb
+    ├── rfecv_feature_selection.ipynb
+    ├── extratrees_feature_selection.ipynb
+    ├── model_comparison.ipynb
+README.md
+```
+
+---
+
+## 🧪 Libraries Used
+
+- Python  
+- Pandas, NumPy  
+- scikit-learn  
+- imbalanced-learn  
+- Matplotlib, Seaborn  
+- Google Colab  
+
+---
+
+## 📌 Conclusion
+
+This project highlights the impact of feature selection and data preprocessing on classification performance. The results show how different selection strategies influence the accuracy and generalization of common ML classifiers in a medical diagnostic setting.
+
 
