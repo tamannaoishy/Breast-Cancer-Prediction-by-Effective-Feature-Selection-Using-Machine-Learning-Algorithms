@@ -63,10 +63,10 @@ This project focuses on building machine learning models to classify breast canc
 ## 📁 Files Structure
 ```
 📁 notebooks/
-    ├── anova_feature_selection.ipynb
-    ├── rfecv_feature_selection.ipynb
-    ├── extratrees_feature_selection.ipynb
-    ├── model_comparison.ipynb
+    ├── ANOVA F-test +Classifiers.ipynb
+    ├── (RFE) with optimal Feature selection +Classifiers .ipynb
+    ├── ExtraTrees+classifiers.ipynb
+    ├── Comparison 3.ipynb
 README.md
 ```
 
@@ -76,8 +76,7 @@ README.md
 
 - Python  
 - Pandas, NumPy  
-- scikit-learn  
-- imbalanced-learn  
+- scikit-learn   
 - Matplotlib, Seaborn  
 - Google Colab  
 
